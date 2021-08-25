@@ -21,7 +21,7 @@ name_list2 = ["董事长","副董事长","董事会秘书","董事长秘书","�
 f2 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\board_of_directors.txt","w+", encoding="utf-8") 
 # 董事会下设机构
 name_list3 = ["专业委员会委员","各专业委员会委员","战略委会委员","战略委员会委员","审计委员会委员","技术委员会委员","薪酬与考核委员会委员","提名委员会委员"] 
-f3 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\board_of_directors.txt","w+", encoding="utf-8") 
+f3 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\board_of_directors1.txt","w+", encoding="utf-8") 
 # 监事会
 name_list4 = ["监事会主席","监事会副主席","监事"] 
 f4 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\board_of_supervisors.txt","w+", encoding="utf-8") 
