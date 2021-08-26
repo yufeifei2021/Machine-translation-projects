@@ -14,10 +14,10 @@ import re
 # 职称大致的分为13类
 
 # 股东
-name_list1 = ["股东","控股股东","关联股东","非关联股东","新股东","老股东","大股东","中股东","小股东","中小股东"]
+name_list1 = ["秘书长","股东","控股股东","关联股东","非关联股东","新股东","老股东","大股东","中股东","小股东","中小股东"]
 f1 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\shareholder.txt","w+", encoding="utf-8")  
 # 董事会
-name_list2 = ["董事长","副董事长","董事会秘书","董事长秘书","董秘","董事候选人","执行董事","独立董事","独立董事候选人","非独立董事","非独立董事候选人","非独立董事会候选人","独立董事委员","实际董事","董事会候选人"] 
+name_list2 = ["董事长","副董事长","董事会秘书","董事长秘书","董秘","董事候选人","执行董事","独立董事","独立董事候选人","非独立董事","非独立董事候选人","非独立董事会候选人","独立董事委员","实际董事","董事会候选人","董事"] 
 f2 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\board_of_directors.txt","w+", encoding="utf-8") 
 # 董事会下设机构
 name_list3 = ["专业委员会委员","各专业委员会委员","战略委会委员","战略委员会委员","审计委员会委员","技术委员会委员","薪酬与考核委员会委员","提名委员会委员"] 
@@ -26,10 +26,10 @@ f3 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\board_of_directo
 name_list4 = ["监事会主席","监事会副主席","监事"] 
 f4 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\board_of_supervisors.txt","w+", encoding="utf-8") 
 # 行政系统
-name_list5 = ["总裁","副总裁","总经理","CEO","副总经理","总经理助理","办事机构负责人"] 
+name_list5 = ["主席","总裁","副总裁","总经理","经理","CEO","副总经理","总经理助理","办事机构负责人"] 
 f5 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\administrative_system.txt","w+", encoding="utf-8") 
 # 行政部门或事业部人员
-name_list6 = ["证券部经理","技术负责人","客运销售代理人","财务顾问","法律顾问"]
+name_list6 = ["事务代表","证券部经理","技术负责人","客运销售代理人","财务顾问","法律顾问"]
 f6 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\administrative_department_or_business_department_staff.txt","w+", encoding="utf-8") 
 # 财务部门
 name_list7 = ["财务负责人","CFO","会计","财务人员","财务总监","财务科长","财务部长"]
@@ -47,10 +47,10 @@ f10 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\party_committee
 name_list11 = ["实际控制人","法定代表人","授权代理人","失信被执行人"]
 f11 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\legal_concept.txt","w+", encoding="utf-8")
 # 泛称概念
-name_list12 = ["高管","高级管理人员","核心管理人员","中层管理人员","核心技术人员","核心技术业务人员"]
+name_list12 = ["高管","高级管理人员","核心管理人员","中层管理人员","核心技术人员","核心技术业务人员","核心管理人员"]
 f12 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\general_concept.txt","w+", encoding="utf-8")
 # 其他
-name_list13 = ["理事长","所长","副所长","委员","工程师","专家库专家","课题组长"]
+name_list13 = ["负责人","候选人","理事长","所长","副所长","委员","技术负责人","工程师","专家库专家","课题组长"]
 f13 = open(r"E:\vscode-code\机器翻译\3.Target text reduction\other.txt","w+", encoding="utf-8")
 
 
